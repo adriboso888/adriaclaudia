@@ -2,7 +2,6 @@
 # Autors Adrià Boix i Clàudia Fariña Fernandez
 class UnitatFormativa:
     nom = None
-
     def __init__(self, nom):
         self.nom = nom
 
