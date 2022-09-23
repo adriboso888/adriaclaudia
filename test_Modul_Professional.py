@@ -13,4 +13,4 @@ class TestModulProfessional(TestCase):
         uf2.qualificacio = 10
         mp.afegir_Unitat_Formativa(uf1)
         mp.afegir_Unitat_Formativa(uf2)
-        assert(mp.get_Qualificacio() == 8)
+        self.assertEqual(mp.get_Qualificacio(), 8)
