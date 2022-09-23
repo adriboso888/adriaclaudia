@@ -4,7 +4,7 @@ from UnitatFormativa import UnitatFormativa
 
 
 def inicialitzar_modul_professional():
-    global uf1, uf2, uf3, uf1
+    global uf1, uf2, uf3, uf1, mp5
     # Inici del programa
     uf1 = UnitatFormativa("UF1. Desenvolupament del programari", 20)
     uf2 = UnitatFormativa("UF2. Optimització del programari", 20)
